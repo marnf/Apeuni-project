@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 
 const CarouselPage = () => {
     return (
-        <div className=" z-1 mt-1 h-56 sm:h-64 xl:h-80 my-44 2xl:h-96">
+        <div className="  mt-1 h-56 sm:h-64 xl:h-80 my-44 2xl:h-96">
             <Carousel onSlideChange={(index) => console.log('onSlideChange()', index)}>
                 <div className="flex h-full w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
                     Slide 1

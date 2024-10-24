@@ -34,8 +34,8 @@ const ScrollToTopButton = () => {
           style={{ 
             position: 'fixed', 
             bottom: '20px', 
-            right: '20px', 
-            color: 'white', 
+            left: '20px', 
+            color: 'black', 
         
           }}>
          <CiCircleChevUp  size={50}/>
